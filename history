@@ -1,0 +1,11 @@
+version 
+1.0.0 - go.mod dependency is Employeev1.1.0 and Pty1.13
+1.1.0 - go.mod dependench is Employeev1.2.1 which has a circular dependency with Employeev1.3.0 via Employer mod file. 
+	Test Expectation - Processor will create empty project and import this gotestv1.1.0 
+	Run go mod graph and go mod graph will resolve Employee Dependency to 1.3.0 since that is the latest and Employeev1.2.1 will be skipped. 
+	The go mod graph is stored in this repo as depgraph.txt and is used to validte the CLI to process all the dependency
+	This module v1.1.0 will be published and passed. 
+	Validation however will fail with panic since it will try to do a go get on v1.2.1 and go will panic because there is v1.3.0.  
+	Even with this panic - the validator will pass this module v1.1.0 and promote it to PROD. 
+
+        	
