@@ -1,3 +1,3 @@
 // dependency graph 
-// test description - asending dependencies version graph with cirular references
+// test description - add dependencies with source from bzr client on launchpad
 // 

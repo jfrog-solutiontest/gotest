@@ -7,3 +7,5 @@ github.com/jfrog-solutiontest/employer v1.1.0/go.mod h1:g39uHSmGIf5NoSnzrY1QZMgL
 github.com/jfrog-solutiontest/social v1.0.0/go.mod h1:Ny+Vi3e+d72E1VelheLk3a0Eo1ql4Zh8dllFN/4XD8w=
 github.com/kr/pty v1.1.3 h1:/Um6a/ZmD5tF7peoOJ5oN5KMQ0DrGVQSXLNwyckutPk=
 github.com/kr/pty v1.1.3/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
+launchpad.net/~jfrog-solutiontest/jfrogsolutiontest/main v0.0.0-20190305235343-000000000003 h1:phjRdcB2zF0uCiCGc6xrByp7/Bs/eqY5KgakyVD6iPE=
+launchpad.net/~jfrog-solutiontest/jfrogsolutiontest/main v0.0.0-20190305235343-000000000003/go.mod h1:B1KnR+8eeNvSdyfSqeBkZNyLV7zcfyH24xdLg7074LM=
