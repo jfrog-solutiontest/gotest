@@ -1,4 +1,4 @@
-module github.com/jfrog-solutiontest/gotest
+module gitlab.com/stanleyf1/solutionci
 
 require (
 	github.com/jfrog-solutiontest/employee v1.1.0
